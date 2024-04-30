@@ -1,0 +1,6 @@
+!pip install bitstring
+from bitstring import BitArray
+num = 10
+bit_array = BitArray(uint=num, length=8)  
+binary = bit_array.bin
+print(binary)
